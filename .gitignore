@@ -1,1 +1,32 @@
-/mcomunica/node_modules
+# Ignorar a pasta node_modules (se você usa npm/yarn para dependências de front-end)
+node_modules/
+
+# Ignorar a pasta vendor (se você usa Composer para dependências PHP)
+vendor/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de cache e uploads do WordPress
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+
+# Ignorar arquivos de configuração sensíveis ou locais
+wp-config.php
+.env
+.htaccess
+
+# Ignorar arquivos de sistema operacional e IDEs
+.DS_Store # macOS
+Thumbs.db # Windows
+.vscode/ # Pasta de configurações do VS Code
+*.sublime-project
+*.sublime-workspace
+.idea/ # PhpStorm/WebStorm
+
+# Ignorar arquivos de teste ou temporários
+*.bak
+*.tmp
+*.swp
